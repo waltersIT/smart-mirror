@@ -3,7 +3,7 @@ import json
 
 def getWeather():
 
-    API_KEY = "YOUR API KEY"
+    API_KEY = "YOUR API KEY" #change to normal api key
     city = "Baltimore"
     base_url = "https://api.openweathermap.org/data/2.5/weather"
 

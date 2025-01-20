@@ -3,7 +3,7 @@ import json
 
 def get_news():
 
-    API_KEY = "YOUR API KEY"
+    API_KEY = "YOUR API KEY"#change to you api key
     headlines = []
     # Initialize
     newsapi = NewsApiClient(api_key=API_KEY)
