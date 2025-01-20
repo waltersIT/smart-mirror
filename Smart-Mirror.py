@@ -3,6 +3,8 @@ from datetime import datetime
 import news
 import weather
 
+
+
 def exit_fullscreen(event=None):
     # Press ESC to exit full screen
     root.attributes('-fullscreen', False)
@@ -35,7 +37,7 @@ root.geometry("800x800")
 
 # Time display
 time_label = tk.Label(root, font=("Helvetica", 48), fg="white", bg="black")
-time_label.place(relx=0.1, rely= 0.1, anchor="n")
+time_label.place(relx=0.2, rely= 0.1, anchor="n")
 update_time()
 
 

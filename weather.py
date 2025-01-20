@@ -3,12 +3,7 @@ import json
 
 def getWeather():
 
-    with open("config.json") as config_file:
-        config = json.load(config_file)
-
-    WEATHER_API_KEY = config.get("WEATHER_API_KEY")
-
-    API_KEY = WEATHER_API_KEY
+    API_KEY = "YOUR API KEY"
     city = "Baltimore"
     base_url = "https://api.openweathermap.org/data/2.5/weather"
 

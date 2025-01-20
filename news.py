@@ -3,13 +3,7 @@ import json
 
 def get_news():
 
-
-    with open("config.json") as config_file:
-        config = json.load(config_file)
-
-    NEWS_API_KEY = config.get("NEWS_API_KEY")
-
-    API_KEY = NEWS_API_KEY
+    API_KEY = "YOUR API KEY"
     headlines = []
     # Initialize
     newsapi = NewsApiClient(api_key=API_KEY)
